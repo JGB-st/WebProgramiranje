@@ -188,9 +188,21 @@ h3{
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    text-align: center;
+
+}
+
+h4{
+    font-family: Volkhov;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 64px;
 
 text-align: center;
+text-transform: capitalize;
 
+color: #14183E;
 }
 
 .services > h3{
@@ -199,4 +211,35 @@ text-align: center;
     height: 27px;
     left: 652px;
     top: 974px;
+}
+
+.services > h4{
+    position: absolute;
+    width: 547px;
+    height: 65px;
+    left: 428px;
+    top: 1011px;
+}
+
+.category1{
+    position: absolute;
+    width: 190px;
+    height: 227px;
+    left: 154px;
+    top: 1186px;
+
+    text-align: center;
+}
+
+.category1 > h5{
+    position: absolute;
+
+
+
+}
+
+.category1 > p{
+    position: absolute;
+
+
 }
