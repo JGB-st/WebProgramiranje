@@ -139,3 +139,64 @@ p{
     top: 340px;
 
 }
+
+.cta{
+    display: flex;
+    width: 100%;
+
+    position: absolute;
+    width: 379px;
+    height: 60px;
+    left: 148px;
+    top: 692px;
+
+}
+
+.cta > div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cta > div > button{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+
+
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: 0px;
+
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+    
+}
+
+h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+text-align: center;
+
+}
+
+.services > h3{
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 652px;
+    top: 974px;
+}
