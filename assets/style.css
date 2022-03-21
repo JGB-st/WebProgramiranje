@@ -194,15 +194,15 @@ h3{
 
 h4{
     font-family: Volkhov;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
 
-text-align: center;
-text-transform: capitalize;
+    text-align: center;
+    text-transform: capitalize;
 
-color: #14183E;
+    color: #14183E;
 }
 
 .services > h3{
@@ -221,6 +221,30 @@ color: #14183E;
     top: 1011px;
 }
 
+.services h5{
+    position: absolute;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+    top: 107px;
+    color: #1E1D4C;
+}
+
+.services p{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5E6282;
+}
+
 .category1{
     position: absolute;
     width: 190px;
@@ -231,15 +255,41 @@ color: #14183E;
     text-align: center;
 }
 
-.category1 > h5{
+.category2{
     position: absolute;
+    width: 302px;
+    height: 348.91px;
+    left: 382px;
+    top: 1142.09px;
 
-
-
+    text-align: center;
 }
 
-.category1 > p{
+.category3{
     position: absolute;
+    width: 181px;
+    height: 229px;
+    left: 763px;
+    top: 1184px;
 
+    text-align: center;
+}
 
+.category4{
+    position: absolute;
+    width: 181px;
+    height: 216px;
+    left: 1062px;
+    top: 1197px;
+
+    text-align: center;
+}
+.category1 > p{
+    top: 158px;
+    text-align: center;
+}
+
+.category2 > p{
+    top: 192.91px;
+    text-align: center;
 }
