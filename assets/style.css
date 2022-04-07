@@ -353,6 +353,28 @@ h4{
     border-radius: 0px 0px 24px 24px;
 }
 
+.uk > .card{
+    position: absolute;
+    width: 315px;
+    height: 130px;
+    background: #FFFFFF;
+    z-index: 1;
+    top: 330px;
+    left: 79px;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.eu > .card{
+    position: absolute;
+    width: 315px;
+    height: 130px;
+    background: #FFFFFF;
+    z-index: 1;
+    top: 330px;
+    left: 79px;
+    border-radius: 0px 0px 24px 24px;
+}
+
 .loc{
     font-family: 'Poppins';
     font-style: normal;
@@ -729,6 +751,7 @@ h4{
     font-weight: 700;
     font-size: 16px;
     line-height: 124.5%;
+    top: 0px;
 }
 
 .values > .value > p{
@@ -741,7 +764,6 @@ h4{
     font-weight: 400;
     font-size: 16px;
     line-height: 124.5%;
-
     color: #5E6282;
 }
 
@@ -854,6 +876,10 @@ h4{
     height: 129px;
     left: 222px;
     top: 219px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 18px;
 }
 
 .TripToGreece > .rectangle > .rectangle2 > img{
@@ -1011,3 +1037,32 @@ footer > .CompanyDesc > p{
     top: 0px;
 }
 
+.plus1{
+    position: absolute;
+    width: 153px;
+    height: 166px;
+    left: 1075px;
+    top: 966px;
+    z-index: 999;
+}
+
+.fafan{
+    position: absolute;
+    width: 96px;
+    height: 252px;
+    left: 1006px;
+    top: 318px;
+
+}
+
+.BlueLight{
+    position: absolute;
+    width: 354px;
+    height: 367px;
+    left: 60px;
+    top: -59px;
+
+    background: #59B1E6;
+    opacity: 0.8;
+    filter: blur(150px);
+}
