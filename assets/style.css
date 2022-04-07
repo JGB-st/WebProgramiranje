@@ -34,9 +34,12 @@ header > div {
 header ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
     gap: 52px;
     align-items: center;
+}
+
+ul{
+    list-style: none;
 }
 
 header li {
@@ -292,6 +295,10 @@ h4{
 }
 
 .category2 > p{
+    position: absolute;
+    width: 181px;
+    height: 78px;
+    left: 44px;
     top: 192.91px;
     text-align: center;
 }
@@ -308,6 +315,7 @@ h4{
 
 .category2 > h5{
     top: 150.91px;
+    left: 74px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -319,6 +327,8 @@ h4{
     height: 617px;
     left: 173px;
     top: 1614px;
+    padding-left: 0px;
+    margin-left: 0px;
 
     text-align: center;
 
@@ -328,8 +338,7 @@ h4{
     position: absolute;
     width: 100px;
     height: 27px;
-    left: 632px;
-    right: 708px;
+    left: 459px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -343,36 +352,57 @@ h4{
 }
 
 .destinations > h4{
-    top: 35px;
     position: absolute;
     width: 418px;
     height: 65px;
-
-
+    left: 317px;
+    top: 35px;
+    
     font-family: 'Volkhov';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
-
-
+    /* identical to box height */
+    
     text-align: center;
     text-transform: capitalize;
+    
+    /* 3rd */
+    
+    color: #14183E;
 }
 
 .italy{
     position: absolute;
     width: 315px;
     height: 457px;
-    left: 173px;
+    left: 0px;
     top: 160px;
+}
+
+.italy > .card{
+    position: absolute;
+    width: 315px;
+    height: 130px;
+    
+    background: #FFFFFF;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.loc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
 }
 
 .uk{
     position: absolute;
     width: 315px;
     height: 457px;
-    left: 523px;
+    left: 350px;
     top: 160px;
 }
 
@@ -380,10 +410,293 @@ h4{
     position: absolute;
     width: 315px;
     height: 457px;
-    left: 898px;
+    left: 725px;
     top: 160px;
 }
 
 .card{
     background-color: #FFFFFF;
+}
+
+.BAT{
+    position: absolute;
+    width: 1114px;
+    height: 492px;
+    left: 186px;
+    top: 2417px;
+}
+
+.BAT > h1{
+    position: absolute;
+    width: 511px;
+    height: 130px;
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+
+    color: #14183E;
+}
+
+.BAT > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: none;
+    color: #5E6282;
+}
+
+.testimonials{
+    position: absolute;
+    width: 1165px;
+    height: 356px;
+    left: 186px;
+    top: 3109px;
+}
+.logos{
+    position: absolute;
+    width: 1073px;
+    height: 162px;
+    left: 186px;
+    top: 3561px;
+}
+
+.gs{
+    mix-blend-mode: luminosity;
+}
+
+.SubDiv{
+    position: absolute;
+    width: 1356px;
+    height: 490px;
+    left: 48px;
+    top: 3834px;
+
+    background-image: url('assets\img\SubscribeBG.svg');
+}
+
+.SubDiv > h1{
+    position: absolute;
+    width: 881px;
+    height: 108px;
+    left: 232px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+
+    text-align: center;
+
+    color: #5E6282;
+}
+
+.email{
+    position: absolute;
+    width: 421px;
+    height: 68px;
+    left: 339px;
+    top: 261px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.email > img{
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    left: 31px;
+    top: 25px;
+    
+}
+
+.email > p{
+    position: absolute;
+    height: 17px;
+    left: 66px;
+    top: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #39425D;
+
+}
+
+.btnSub{
+    position: absolute;
+
+    left: 784px;
+    top: 261px;
+    width: 180px;
+    height: 68px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.values{
+    position: absolute;
+    width: 395px;
+    height: 289px;
+    top: 203px;
+
+}
+
+.values > .value > h1{
+    position: absolute;
+    left: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+}
+
+.values > .value > p{
+    position: absolute;
+    left: 68px;
+    width: 327px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+
+    color: #5E6282;
+}
+
+.TripToGreece{
+    position: absolute;
+    width: 485px;
+    height: 459px;
+    left: 629px;
+
+}
+
+.TripToGreece > .rectangle > h1{
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 25px;
+    top: 207px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    letter-spacing: 0.015em;
+    color: #080809;
+}
+
+.TripToGreece > .rectangle > .date{
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    left: 25px;
+    top: 242px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+
+    letter-spacing: -0.005em;
+
+    color: #84829A;
+
+}
+
+.TripToGreece > .rectangle > .author{
+    position: absolute;
+    width: 138px;
+    height: 20px;
+    left: 129px;
+    top: 242px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+    color: #84829A;
+}
+
+.TripToGreece > .rectangle > .options{
+    position: absolute;
+    width: 139px;
+    height: 36px;
+    left: 28px;
+    top: 283px;
+}
+
+.TripToGreece > .rectangle > .building{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 25px;
+    top: 348px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+footer{
+    position: absolute;
+    width: 1617.94px;
+    height: 633.86px;
+    left: 186px;
+    top: 4420px;
+
+}
+
+footer > .CompanyDesc > h1{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+
+    color: #181E4B;
+}
+
+footer > .CompanyDesc > p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 124.5%;
+
+    color: #5E6282;
+}
+
+footer .NawColumns .NavRow h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 124.5%;
+
+    color: #080809;
 }
