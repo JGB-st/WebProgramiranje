@@ -457,12 +457,205 @@ h4{
     left: 186px;
     top: 3109px;
 }
+
+.testimonials > h2{
+    position: absolute;
+    width: 128px;
+    height: 27px;
+    top: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-transform: uppercase;
+
+    color: #5E6282;
+}
+.testimonials > h1{
+    position: absolute;
+    width: 409px;
+    height: 130px;
+    top: 44px;
+
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+
+    color: #14183E;
+}
+
+.testimonials > .quotes{
+    position: absolute;
+    width: 669px;
+    height: 356px;
+    left: 496px;
+}
+.testimonials > .quotes > .quote1{
+    position: absolute;
+    width: 541px;
+    height: 279px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.testimonials > .quotes > .quote1 > img{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: -37px;
+    top: -34px;
+}
+
+.testimonials > .quotes > .quote1 > .text{
+    position: absolute;
+    width: 402px;
+    height: 96px;
+    left: 34px;
+    top: 28px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+
+    
+    color: #5E6282;
+}
+
+.testimonials > .quotes > .quote1 > .name{
+    position: absolute;
+    width: 101px;
+    height: 27px;
+    left: 34px;
+    top: 158px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #5E6282;
+}
+
+.testimonials > .quotes > .quote1 > .title{
+    position: absolute;
+    width: 116px;
+    height: 21px;
+    left: 34px;
+    top: 190px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #5E6282;
+}
+
+.testimonials > .quotes > .quote2{
+    position: absolute;
+    width: 502px;
+    height: 232px;
+    left: 87px;
+    top: 124px;
+    border: 2px solid #F7F7F7;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.testimonials > .quotes > .quote2 > .name{
+    position: absolute;
+    width: 127px;
+    height: 27px;
+    left: 34px;
+    top: 156px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #5E6282;
+    
+}
+
+.testimonials > .quotes > .quote2 > .title{
+    position: absolute;
+    width: 127px;
+    height: 21px;
+    left: 34px;
+    top: 189px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #5E6282;
+}
+
 .logos{
     position: absolute;
     width: 1073px;
     height: 162px;
     left: 186px;
     top: 3561px;
+}
+
+.logos > img:nth-child(1){
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 16px;
+}
+
+.logos > img:nth-child(2){
+    position: absolute;
+    width: 172.86px;
+    height: 110px;
+    left: 207px;
+    top: 27px;
+}
+
+.logos > img:nth-child(3){
+    position: absolute;
+    width: 241px;
+    height: 162px;
+    left: 430px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 10px;
+
+}
+
+.logos > img:nth-child(4){
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    left: 718px;
+    top: 67px;
+}
+
+.logos > img:nth-child(5){
+    position: absolute;
+    width: 94px;
+    height: 21px;
+    left: 979px;
+    top: 71px;
 }
 
 .gs{
@@ -476,7 +669,13 @@ h4{
     left: 48px;
     top: 3834px;
 
-    background-image: url('assets\img\SubscribeBG.svg');
+}
+
+.ssBG{
+    position: absolute;
+    width: 1257px;
+    height: 407px;
+    z-index: -1;
 }
 
 .SubDiv > h1{
@@ -549,6 +748,16 @@ h4{
     text-align: center;
 
     color: #FFFFFF;
+}
+
+.SendBLUE{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1207px;
+    right: -20px;
+    top: -13px;
+
 }
 
 .values{
@@ -660,6 +869,112 @@ h4{
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.TripToGreece > .rectangle .going{
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 56px;
+    top: 349px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+
+    letter-spacing: -0.02em;
+
+    color: #84829A;
+}
+
+.TripToGreece > .rectangle > .heart{
+    position: absolute;
+    width: 20px;
+    height: 18.58px;
+    left: 325px;
+    top: 349.71px;
+}
+
+.TripToGreece > .rectangle > .rectangle2{
+    position: absolute;
+    width: 263px;
+    height: 129px;
+    left: 222px;
+    top: 219px;
+}
+
+.TripToGreece > .rectangle > .rectangle2 > img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 18px;
+    }
+
+.TripToGreece > .rectangle > .rectangle2 > .status{
+    position: absolute;
+    width: 58px;
+    height: 17px;
+    left: 82px;
+    top: 16px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+
+    letter-spacing: -0.035em;
+
+    color: #84829A;
+}
+
+.TripToGreece > .rectangle > .rectangle2 > h1{
+    position: absolute;
+    width: 107px;
+    height: 22px;
+    left: 81px;
+    top: 39px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+
+    letter-spacing: -0.015em;
+
+    color: #080809;
+}
+
+.TripToGreece > .rectangle > .rectangle2 > .completion{
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 80px;
+    top: 75px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+
+    letter-spacing: -0.055em;
+
+    color: #8A79DF;
+
+}
+
+.TripToGreece > .rectangle > .rectangle2 > .ProgressBar{
+    position: absolute;
+    width: 156px;
+    height: 5px;
+    left: 82px;
+    top: 102px;
+
+}
+
 footer{
     position: absolute;
     width: 1617.94px;
@@ -691,7 +1006,7 @@ footer > .CompanyDesc > p{
     color: #5E6282;
 }
 
-footer .NawColumns .NavRow h5{
+.RowTitle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
