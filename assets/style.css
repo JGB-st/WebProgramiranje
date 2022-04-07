@@ -346,6 +346,9 @@ h4{
     width: 315px;
     height: 130px;
     background: #FFFFFF;
+    z-index: 1;
+    top: 330px;
+    left: 79px;
     border-radius: 0px 0px 24px 24px;
 }
 
