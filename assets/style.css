@@ -46,26 +46,20 @@ header li {
     font-weight: 400;
     font-size: 17px;
     line-height: 22px;
-
     color: #212832;
     position: relative;
     transition: all 0.35s ease;
-    
     width: 100px;
-    height: 22px;
-
-    
+    height: 22px; 
 }
 
 .button{
     width: 102px;
     height: 40px;
     top: -10px;
-
     border: 1px solid #212832;
     box-sizing: border-box;
     border-radius: 5px;
-
     text-align: center;
 }
 
@@ -87,9 +81,7 @@ h2{
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-
     text-transform: uppercase;
-
     color: #DF6951;
 }
 
@@ -99,11 +91,8 @@ h1{
     font-weight: bold;
     font-size: 84px;
     line-height: 89px;
-
     letter-spacing: -0.04em;
-
     color: #181E4B;
-
 }
 
 p{
@@ -142,19 +131,16 @@ p{
     height: 12px;
     left: 393px;
     top: 340px;
-
 }
 
 .cta{
     display: flex;
     width: 100%;
-
     position: absolute;
     width: 379px;
     height: 60px;
     left: 148px;
     top: 692px;
-
 }
 
 .cta > div {
@@ -163,29 +149,22 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     display: flex;
     flex-direction: row;
-
 }
 
 .cta > div > button{
     position: absolute;
     width: 170px;
     height: 60px;
-
-
     background: #F1A501;
     box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
     border-radius: 10px;
     border: 0px;
-
     font-size: 18px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
-
-    
 }
 
 h3{
@@ -194,7 +173,6 @@ h3{
     font-size: 18px;
     line-height: 27px;
     text-align: center;
-
 }
 
 h4{
@@ -203,10 +181,8 @@ h4{
     font-weight: bold;
     font-size: 50px;
     line-height: 64px;
-
     text-align: center;
     text-transform: capitalize;
-
     color: #14183E;
 }
 
@@ -228,13 +204,11 @@ h4{
 
 .services h5{
     position: absolute;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-
     text-align: center;
     top: 107px;
     color: #1E1D4C;
@@ -256,7 +230,6 @@ h4{
     height: 227px;
     left: 154px;
     top: 1186px;
-
     text-align: center;
 }
 
@@ -266,7 +239,6 @@ h4{
     height: 348.91px;
     left: 382px;
     top: 1142.09px;
-
     text-align: center;
 }
 
@@ -276,7 +248,6 @@ h4{
     height: 229px;
     left: 763px;
     top: 1184px;
-
     text-align: center;
 }
 
@@ -286,7 +257,6 @@ h4{
     height: 216px;
     left: 1062px;
     top: 1197px;
-
     text-align: center;
 }
 .category1 > p{
@@ -329,7 +299,6 @@ h4{
     top: 1614px;
     padding-left: 0px;
     margin-left: 0px;
-
     text-align: center;
 
 }
@@ -339,15 +308,12 @@ h4{
     width: 100px;
     height: 27px;
     left: 459px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-
     text-align: center;
-
     color: #5E6282;
 }
 
@@ -357,19 +323,13 @@ h4{
     height: 65px;
     left: 317px;
     top: 35px;
-    
     font-family: 'Volkhov';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
-    /* identical to box height */
-    
     text-align: center;
     text-transform: capitalize;
-    
-    /* 3rd */
-    
     color: #14183E;
 }
 
@@ -385,7 +345,6 @@ h4{
     position: absolute;
     width: 315px;
     height: 130px;
-    
     background: #FFFFFF;
     border-radius: 0px 0px 24px 24px;
 }
@@ -436,7 +395,6 @@ h4{
     font-size: 50px;
     line-height: 64px;
     text-transform: capitalize;
-
     color: #14183E;
 }
 
@@ -468,9 +426,7 @@ h4{
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-
     text-transform: uppercase;
-
     color: #5E6282;
 }
 .testimonials > h1{
@@ -478,14 +434,12 @@ h4{
     width: 409px;
     height: 130px;
     top: 44px;
-
     font-family: 'Volkhov';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 64px;
     text-transform: capitalize;
-
     color: #14183E;
 }
 
@@ -525,8 +479,6 @@ h4{
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
-
-    
     color: #5E6282;
 }
 
@@ -536,13 +488,11 @@ h4{
     height: 27px;
     left: 34px;
     top: 158px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-
     color: #5E6282;
 }
 
@@ -552,7 +502,6 @@ h4{
     height: 21px;
     left: 34px;
     top: 190px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -754,7 +703,7 @@ h4{
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 1207px;
+    left: 1177px;
     right: -20px;
     top: -13px;
 
@@ -1015,3 +964,46 @@ footer > .CompanyDesc > p{
 
     color: #080809;
 }
+
+.copyright{
+    position: absolute;
+    top: 258px;
+    text-align: center;
+    left: 430px;
+}
+
+.NavColumns{
+    position: absolute;
+    width: 474px;
+    height: 153px;
+    left: 290px;
+    top: 21px;
+}
+
+.outbound{
+    position: absolute;
+    width: 214px;
+    height: 147px;
+    left: 1032px;
+    top: 21px;
+}
+
+.CompanyDesc > p{
+    position: absolute;
+    margin-top: 19px;
+    width: 207px;
+    height: 48px;
+}
+
+.NawRow:nth-child(2){
+    position: absolute;
+    left: 223px;
+    top: 0px;
+}
+
+.NawRow:nth-child(3){
+    position: absolute;
+    left: 446px;
+    top: 0px;
+}
+
