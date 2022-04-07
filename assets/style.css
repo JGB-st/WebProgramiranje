@@ -1074,3 +1074,28 @@ footer > .CompanyDesc > p{
     left: 1203px;
     top: 324px;
 }
+
+.loc{
+    position: absolute;
+    width: 107px;
+    height: 22px;
+    left: 20px;
+    top: 27px;
+
+}
+
+.price{
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 230px;
+    top: 28px;
+}
+
+.time{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 54px;
+    top: 68px;
+}
