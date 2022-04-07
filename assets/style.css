@@ -1066,3 +1066,11 @@ footer > .CompanyDesc > p{
     opacity: 0.8;
     filter: blur(150px);
 }
+
+.plus2{
+    position: absolute;
+    width: 153px;
+    height: 166px;
+    left: 1203px;
+    top: 324px;
+}
