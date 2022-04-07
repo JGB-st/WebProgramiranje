@@ -292,6 +292,15 @@ h4{
     margin-right: auto;
 }
 
+.category3 > h5{
+    position: absolute;
+    left: 29px;
+}
+
+.category4 > h5{
+    position: absolute;
+    left: 20px;
+}
 .destinations{
     position: absolute;
     width: 1102px;
