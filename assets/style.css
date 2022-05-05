@@ -168,6 +168,20 @@ p{
     color: #FFFFFF;
 }
 
+.playDemo{
+    position: absolute;
+    top: -11px;
+    left: 200px;
+    width: fit-content;
+}
+
+.playDemo > p{
+    position: absolute;
+    top: 27px;
+    left: 101px;
+    width: fit-content;
+}
+
 h3{
     font-style: normal;
     font-weight: 600;
@@ -1130,3 +1144,4 @@ footer > .CompanyDesc > p{
     z-index: -1;
     opacity: 0.1;
 }
+
